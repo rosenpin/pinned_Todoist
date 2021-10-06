@@ -6,9 +6,9 @@
   },
 
   "manifest_version": 2,
-  "name": "Pinned MS Teams",
+  "name": "Pinned Todoist",
   "version": "1.0.0",
-  "description": "Go to the pinned MS Teams tab. If it doesn't exist, it's created.",
+  "description": "Go to the pinned Todoist tab. If it doesn't exist, it's created.",
 
   "icons": {
     "48": "icons/teams-48.png",
@@ -23,7 +23,7 @@
     "default_icon": {
       "32": "icons/teams-32.png"
     },
-    "default_title": "Pinned Teams",
+    "default_title": "Pinned Todoist",
     "default_area": "navbar"
   },
 
@@ -34,7 +34,7 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "default": "Alt+Shift+T"
+        "default": "Alt+Shift+O"
       }
     }
   },

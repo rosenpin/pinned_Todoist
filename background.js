@@ -9,7 +9,7 @@ function onError(e) {
 function createPinnedTab() {
   browser.tabs.create(
     {
-      url: "https://teams.microsoft.com",
+      url: "https://todoist.com/app/upcoming#",
       pinned: true,
       active: true
     }
@@ -39,7 +39,7 @@ function handleSearch(messengerTabs) {
 function handleClick(tab) {
   //console.log("*********Button clicked*********");
   currentTabId = tab.id;
-  var querying = browser.tabs.query({url: "*://teams.microsoft.com/*"});
+  var querying = browser.tabs.query({url: "*://todoist.com/*"});
   querying.then(handleSearch, onError);
 };
 
